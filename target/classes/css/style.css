@@ -1,0 +1,201 @@
+
+#Pane, #Pane2, #Pane3, #Pane4, #Pane5, #Pane6 {
+    -fx-background-color: #b8cdde;
+    -fx-background-radius: 30px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0.3, 0, 0);
+    -fx-transition: all 0.3s ease;
+}
+
+#Pane:hover, #Pane2:hover, #Pane3:hover, #Pane4:hover, #Pane5:hover, #Pane6:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 15, 0.4, 0, 5);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-transition: all 0.3s ease;
+}
+#Pane_img_background, #Pane_img_coach, #Pane_img_background2, #Pane_img_coach2, #Pane_img_background3, #Pane_img_coach3, #Pane_img_background4, #Pane_img_coach4, #Pane_img_background5, #Pane_img_coach5, #Pane_img_background6, #Pane_img_coach6 {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 0);
+    -fx-transition: all 0.3s ease;
+}
+
+#Pane_img_background:hover, #Pane_img_coach:hover, #Pane_img_background2:hover, #Pane_img_coach2:hover, #Pane_img_background3:hover, #Pane_img_coach3:hover, #Pane_img_background4:hover, #Pane_img_coach4:hover, #Pane_img_background5:hover, #Pane_img_coach5:hover, #Pane_img_background6:hover, #Pane_img_coach6:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 10, 0.4, 0, 0);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-transition: all 0.3s ease;
+}
+
+#lg_dashboard, #lg_coach, #lg_order, #lg_pay, #lg_feedback {
+    -fx-background-color: transparent;
+    -fx-cursor: pointer;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 0 10 0 10;
+    -fx-alignment: center-left;
+    -fx-transition: all 0.2s ease;
+}
+
+#lg_dashboard:hover, #lg_coach:hover, #lg_order:hover, #lg_pay:hover, #lg_feedback:hover {
+    -fx-text-fill: #f0f0f0;
+    -fx-font-size: 13px;
+    -fx-scale-y: 1.1;
+}
+
+#lg_dashboard:pressed, #lg_coach:pressed, #lg_order:pressed, #lg_pay:pressed, #lg_feedback:pressed {
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .content {
+    -fx-background-color: white;
+    -fx-padding: 10px;
+}
+
+.scroll-pane .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-pref-width: 10px;
+}
+
+.scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-pref-height: 10px;
+}
+
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: #9D000F;
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .scroll-bar:horizontal .thumb {
+    -fx-background-color: rgba(100, 100, 100, 0.8);
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: rgba(150, 150, 150, 0.8);
+    -fx-cursor: hand;
+}
+#bt_addcourse, #bt_addcourse2, #bt_addcourse3, #bt_addcourse4, #bt_addcourse5, #bt_addcourse1 {
+    -fx-background-color: rgba(128, 128, 128, 0.9);
+    -fx-background-radius: 50%;
+    -fx-pref-width: 32px;
+    -fx-pref-height: 32px;
+    -fx-text-fill: #00ff44;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);
+    -fx-transition: all 0.3s ease;
+}
+
+#bt_addcourse:hover, #bt_addcourse2:hover, #bt_addcourse3:hover, #bt_addcourse4:hover, #bt_addcourse5:hover, #bt_addcourse1:hover {
+    -fx-background-color: rgba(128, 128, 128, 1);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 15, 0, 0, 5);
+}
+
+#pay_button {
+    -fx-background-color: #9D000F;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px 10px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0, 0, 0);
+    -fx-transition: all 0.3s ease;
+}
+
+#pay_button:hover {
+    -fx-background-color: #a5000f;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+#pay_money {
+    -fx-background-color: white;
+    -fx-border-color: #9D000F;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 12px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 0);
+}
+
+.tab-order {
+    -fx-background-color: rgba(128, 128, 128, 0.5);
+}
+
+.container {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 4, 0, 0, 0);
+}
+
+.header {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.subheader {
+    -fx-font-size: 14px;
+    -fx-text-fill: #666;
+}
+
+.radio-button {
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.radio-button:selected {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+
+.basic-plan,
+.enterprise-plan,
+.pro-plan {
+    -fx-background-color: #9D000F;
+    -fx-background-radius: 5px;
+    -fx-padding: 15;
+}
+
+.plan-name,
+.plan-price,
+.plan-classes {
+    -fx-text-fill: white;
+}
+
+.order-button {
+    -fx-background-color: #9D000F;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.cancel-button {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: #666;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+
+
+
+
+
+
